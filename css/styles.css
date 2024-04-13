@@ -1,0 +1,280 @@
+:root{
+    --blue:  #2196F3;
+    --white: #FFFFFF;
+    --grey: #757575;
+    --black: #212121;
+    --light-black: #2F303A;
+    --primary-font:'Roboto', sans-serif;
+    --secondary-font: 'Raleway' , sans-serif;
+    --dark-white: #ECECEC;
+    --ligt-grey #EEEEEE;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+.header {
+    background-color: var(--dark-white);
+}
+.logo {
+    color: var(--black);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height:31px;
+
+}
+.logo span {
+    color:var(--blue);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height:31px;
+
+}
+
+.header_navigation ul {
+    list-style: none;
+   
+}
+
+.header__navigation a {
+    text-decoration:wavy;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height:16px;
+    color: var(--black);
+}
+
+.header_email{
+    font-family: var(--primary-font);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:16px;
+    color: var(--blue);
+
+}
+.header_tel {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    line-height:16px;
+    color: var(--grey);
+}
+
+/* Main page & Hero Section*/
+
+
+.hero_section {
+    background-color: var(--light-black);
+}
+.hero_section_title {
+    font-family: var(--primary-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height:60px;
+    color: var(--white);
+}
+
+.button {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height:30px;
+    color: var(--white);
+    background-color: var(--blue);
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: var(--white);
+    background-color: var(--blue);
+    
+}
+.button:focus {
+    color: var(--white);
+    
+}
+
+/*Group Section*/
+
+.Group_section {
+    background-color: var(--white);
+}
+.group_section_details h2 {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height:17px;
+    color: var(--black);
+}
+.group_section_details p {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--grey);
+}
+
+/*Section with What we do Images*/
+
+.div_images_title {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height:42px;
+    color: var(--black);
+}
+
+/* Team section */
+
+.team_section {
+    background-color:
+    #F5F4FA ;
+}
+.team_section_tiles {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height:42px;
+    color: var(--black);
+}
+/* Team section cards container */
+.team_section_members_name b {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height:18px;
+    color: var(--black);
+}
+.roles p {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height:18px;
+    color: var(--grey);
+}
+
+/*Footer Section*/
+
+.footer_section {
+    background-color: #2F303A;
+}
+
+.footer_logo {
+    color:var(--white);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height:31px;
+}
+.footer_logo span {
+    color:var(--blue);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height:31px;
+}
+.footer_address {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height:16px;
+    color: var(--white);
+    font-style: normal;
+    
+
+}
+.footer_email{
+    font-family: var(--primary-font);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:16px;
+    color: var(--white)
+}
+.footer_tel {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    line-height:16px;
+    color:var(--white)
+}
+
+
+/* Portofolio Page Section */
+
+:root {
+    --dark-white-in-section-cards:#EEEEEE;
+    --buton-backgroundcolor:#F5F4FA;  
+}
+
+.portofolio_buttons ul {
+         list-style: none;
+}
+ 
+.portofolio_buttons button {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height:26px;
+    color:var(--black);
+    background-color:var(--buton-backgroundcolor) ;
+    border-radius: 4px;}
+
+    .buttons_page2 button:hover {
+        background-color: #2196F3;
+        font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 16px;
+        line-height:26px;
+        color:var(--white);
+    }
+    .portofolio_products_container b {
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 18px;
+        line-height:36px;
+        color:var(--black);
+       
+    }
+    .portofolio_products_container p {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 16px;
+        line-height:30px;
+        color:var(--grey);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
